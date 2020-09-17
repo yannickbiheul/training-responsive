@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--roboto);
+}
+
+:root {
+    /* FONTS */
+    --roboto: 'Roboto', sans-serif;
+    --ranchers: 'Ranchers', cursive;
+    /* COLORS */
+    /* ÉLÉMENTS */
+    --container: calc(100% - 40px);
+}
