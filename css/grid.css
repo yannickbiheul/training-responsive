@@ -12,3 +12,27 @@ html, body {
     /* ÉLÉMENTS */
     --container: calc(100% - 40px);
 }
+
+.grid>div {
+    border: 1px solid #ccc;
+    background-color: #999;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.child {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 2;
+}
+
+.child2 {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row: 1 / 3;
+}
