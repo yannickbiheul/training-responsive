@@ -24,6 +24,7 @@ html, body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     box-sizing: border-box;
+    transition-duration: 2s;
 }
 
 
@@ -57,9 +58,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation-name: appearSousTitre;
-    animation-delay: 2s;
-    opacity: 1;
 }
 
 .para {
